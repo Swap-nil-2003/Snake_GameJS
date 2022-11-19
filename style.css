@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+.body{
+   /* background-color: rgb(167, 198, 53); */
+   background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#scoreBox{
+    position:absolute;
+    top: 12px;
+    right: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+#hiscoreBox{
+    position:absolute;
+    top: 50px;
+    right: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+#board{
+    background: linear-gradient(rgb(212, 212, 94), rgb(105, 229, 105));
+    width:90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.head{
+    background: linear-gradient(purple, red);
+    border: 2px solid purple;
+    transform: scale(1.05);
+    border-radius: 8px;
+}
+.snake{
+    background-color: rgb(121, 6, 121);
+    border: .25vmin solid purple;
+    border-radius: 10px;
+}
+.food{
+    background: linear-gradient(red,orange,yellow);
+    border: .25vmin solid orange;
+    border-radius: 15px;
+}
