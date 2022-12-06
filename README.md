@@ -6,3 +6,6 @@ A fun Snake Game built with HTML,CSS and Javascript. Highest score is being save
 * CSS
 * Javascript
 * Netlify
+
+# Live Link:
+https://snake-gameee.netlify.app/
